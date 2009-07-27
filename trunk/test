@@ -1,0 +1,7 @@
+<!DOCTYPE GUIXML>
+<VisualCommand Title="test" AppName="" WebSite="" Description="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;/p>&lt;/body>&lt;/html>" Mac="False" Windows="True" Linux="False" >
+ <t>
+  <FileForm Mode="1" Filter="Images (*.png *.xpm *.jpg);;Text Files (*.txt);; All Files(*.*)" StringFormat="-v %s" Description="" Required="True" Seperator=";" RequiredChecked="False" Surround="&quot;%s&quot;" />
+  <NumericalForm StringFormat="-v %s" Number="0" Description="" Required="True" RequiredChecked="False" Min="-2147483647" Max="2147483647" />
+ </t>
+</VisualCommand>

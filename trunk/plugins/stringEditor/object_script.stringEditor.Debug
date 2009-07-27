@@ -1,0 +1,16 @@
+INPUT(
+./debug\qtpropertybrowser.o
+./debug\qtpropertymanager.o
+./debug\qteditorfactory.o
+./debug\qtvariantproperty.o
+./debug\qttreepropertybrowser.o
+./debug\qtbuttonpropertybrowser.o
+./debug\qtgroupboxpropertybrowser.o
+./debug\qtpropertybrowserutils.o
+./debug\stringEditor.o
+./debug\argbase.o
+./debug\moc_qtpropertybrowserutils_p.o
+./debug\moc_stringEditor.o
+./debug\moc_argbase.o
+./debug\qrc_qtpropertybrowser.o
+);
