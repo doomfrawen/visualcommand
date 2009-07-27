@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ArgNumericForm</class>
+ <widget class="QWidget" name="ArgNumericForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>69</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QSlider" name="horizontalSlider">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinBox"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ArgNumericForm</receiver>
+   <slot>SliderChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>68</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ArgNumericForm</receiver>
+   <slot>UpDownChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>59</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>185</x>
+     <y>68</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ArgNumericForm</receiver>
+   <slot>ControlChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>199</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ArgNumericForm</receiver>
+   <slot>ControlChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>199</x>
+     <y>45</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>SliderChanged(int)</slot>
+  <slot>UpDownChanged(int)</slot>
+  <slot>ControlChanged()</slot>
+ </slots>
+</ui>

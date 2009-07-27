@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/new/prefix1" >
+        <file>icons/PNG/onebit_27.png</file>
+        <file>icons/PNG/onebit_30.png</file>
+        <file>icons/PNG/onebit_44.png</file>
+        <file>icons/PNG/onebit_45.png</file>
+        <file>icons/PNG/onebit_02.png</file>
+        <file>icons/PNG/onebit_04.png</file>
+        <file>icons/PNG/onebit_11.png</file>
+        <file>icons/PNG/onebit_20.png</file>
+        <file>icons/PNG/onebit_35.png</file>
+        <file>icons/PNG/onebit_37.png</file>
+        <file>icons/PNG/onebit_34.png</file>
+        <file>icons/PNG/onebit_13.png</file>
+        <file>icons/PNG/onebit_33.png</file>
+        <file>icons/PNG/onebit_28.png</file>
+        <file>icons/PNG/onebit_47.png</file>
+        <file>icons/PNG/32px-Crystal_Clear_app_package.png</file>
+    </qresource>
+</RCC>
