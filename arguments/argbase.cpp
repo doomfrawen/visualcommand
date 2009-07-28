@@ -46,7 +46,7 @@ void ArgBase::SwapController(QWidget *NewController){
 }
 QString ArgBase::GetArgumentText(QString Input){
     if(m_ui->checkBoxEnabled->isChecked()){
-        return Input;
+        return Input+" ";
     }
     else{
         return QString("");
